@@ -1,0 +1,97 @@
+body {
+    background-color: #ffffff;
+    background-image: url("https://cdn.filestackcontent.com/Za7guv7iQ8mEWMrt0cI8");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: yellowgreen;
+  }
+nav > .liste1 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: tomato;
+    background: turquoise;
+    padding: 10px;
+    margin-left: 5px;
+}
+@media (max-width:786px){
+    nav > .liste1 {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin-left: 1%;
+        flex-direction: column;
+        
+    }
+	#talha{
+		display:none;
+	}
+	
+}
+header{
+    border:4px solid rgb(0, 38, 255);
+    display :flex ;
+    justify-content:space-between;
+    background: #ffffff;
+    font-size: 30px;
+    font-style: normal;
+    padding: 5px;
+    color: #000;
+    margin: 50px auto;
+
+  }
+  a:hover {
+      color: rgb(ff0000);
+  }
+
+.container {
+    background-color: violet ;
+    color: #000;
+    width: 350px;
+    height: 200px;
+    padding:;
+    border: 2px solid red;
+    border-radius: 10px;
+    flex-direction: row;
+    direction: ltr;
+}
+.container div {
+    color: royalblue;
+    font: oblique;
+    font-style: arial;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: space-around;
+}
+.grid-container > .container1 {
+    padding: 20px;
+    background: #ffffff;
+    color: black;
+}
+.grid-container > .container2 {
+    padding: 20px;
+    background: #ffffff;
+    color: black;
+}
+.enjoy {
+        display: flex;
+        flex-wrap: wrap;
+        background: gray;
+        flex-basis: 100px;
+        padding: 20px;
+        width: 400px;
+        border-radius: 5px;
+
+    }
+  
+.container1 > #work {
+    color: #ff0000;
+}
+
